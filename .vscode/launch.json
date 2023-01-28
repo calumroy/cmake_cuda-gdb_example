@@ -16,14 +16,6 @@
             "name": "CUDA C++: Attach",
             "type": "cuda-gdb",
             "request": "attach"
-        },
-        {
-            "name": "MAKE CUDA C++: Launch",
-            "type": "cuda-gdb",
-            "request": "launch",
-            "program": "${workspaceFolder}/gpu_overlap",
-            "envFile": "${workspaceFolder}/.vscode/var_env.env",
-            //"breakOnLaunch": true,
-        },
+        }
     ]
 }
