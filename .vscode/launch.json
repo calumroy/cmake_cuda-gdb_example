@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CUDA C++: Launch",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/gpu_overlap",
+            "envFile": "${workspaceFolder}/.vscode/var_env.env",
+            //"breakOnLaunch": true,
+        },
+        {
+            "name": "CUDA C++: Attach",
+            "type": "cuda-gdb",
+            "request": "attach"
+        },
+        {
+            "name": "MAKE CUDA C++: Launch",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/gpu_overlap",
+            "envFile": "${workspaceFolder}/.vscode/var_env.env",
+            //"breakOnLaunch": true,
+        },
+    ]
+}
